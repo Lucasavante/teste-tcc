@@ -2,7 +2,15 @@
 
 Frontend estático do Bloom para demonstração do TCC. Não possui backend, banco de dados ou autenticação real. Os dados são fictícios e podem ser persistidos apenas no navegador via `localStorage`.
 
-## O que está implementado
+## Visual atual
+- Identidade visual revisada com a paleta oficial do protótipo: `#FBF4E8`, `#F0E8D5`, `#C26747`, `#A35232`, `#332B25`, `#869176` e `#2D231E`.
+- Interface mais limpa e profissional, com menos cantos excessivamente arredondados, bordas sutis e hierarquia visual mais forte.
+- Navbar horizontal do módulo estudante.
+- Mascote Bloom estilizado como assistente visual flutuante.
+- Chatbot Bloom com respostas locais para orientação sobre organizar, estudar, bem-estar, apoio e notificações.
+- Tela de Lembretes/Notificações reorganizada para apresentar cada categoria em linhas claras, com switches consistentes.
+
+## Funcionalidades
 
 ### Pessoal / Emocional
 - Diário pessoal com criação, edição, exclusão e suporte visual para imagem/áudio simulados.
@@ -28,7 +36,7 @@ Frontend estático do Bloom para demonstração do TCC. Não possui backend, ban
 
 ### Conta
 - Perfil do estudante.
-- Personalização de tema, cor de destaque e informações mostradas na Home.
+- Personalização de tema e preferências.
 - Privacidade e gerenciamento/exportação de dados locais.
 - Fluxo de conta demonstrativo, sem autenticação real.
 
@@ -42,6 +50,12 @@ Frontend estático do Bloom para demonstração do TCC. Não possui backend, ban
 - Canal de denúncias com opção de anonimato, data, horário, local e anexos simulados.
 - Comunicação institucional com avisos, campanhas e conteúdos.
 - Eventos e campanhas com participação, lembrete, calendário e pergunta anônima.
+
+## Arquivos principais
+- `index.html` — shell e entrada do site.
+- `theme.css` — Design System e identidade visual.
+- `app.js` — rotas, telas, dados mockados e interações do módulo estudante.
+- `enhance.js` — chatbot e camada do mascote Bloom.
 
 ## Executar
 
