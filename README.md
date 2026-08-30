@@ -10,7 +10,7 @@ Frontend estático do Bloom para demonstração do TCC. Não possui backend, ban
 - Autoconhecimento com questionários/reflexões e resultados apresentados como observação pessoal.
 - Caixa de ideias com captura rápida, arquivamento e conversão para tarefa.
 - Mensagens motivadoras e recomendações diárias demonstrativas.
-- Busca demonstrativa de instituições de saúde mental em raio de referência, com distância, endereço, avaliação, horário, telefone, WhatsApp e mapa.
+- Busca demonstrativa de instituições de saúde mental com raio de referência, distância, endereço, avaliação, horário, telefone, WhatsApp e mapa.
 - Práticas de bem-estar: respiração, meditação, pausas e relaxamento.
 
 ### Organização pessoal
@@ -28,14 +28,14 @@ Frontend estático do Bloom para demonstração do TCC. Não possui backend, ban
 
 ### Conta
 - Perfil do estudante.
-- Personalização de tema e preferências da Home.
+- Personalização de tema, cor de destaque e informações mostradas na Home.
 - Privacidade e gerenciamento/exportação de dados locais.
 - Fluxo de conta demonstrativo, sem autenticação real.
 
 ### Integração institucional
 - Vínculo por convite/código simulado.
 - Agenda acadêmica.
-- Encerramento do vínculo com confirmação e explicação.
+- Encerramento do vínculo com confirmação e explicação sobre os dados.
 - Apoio e acolhimento com solicitação e acompanhamento de status.
 - Comunidades com entrar/sair, publicações, curtidas e comentários.
 - Feedback de matérias, professores, carga e instituição.
@@ -45,10 +45,10 @@ Frontend estático do Bloom para demonstração do TCC. Não possui backend, ban
 
 ## Executar
 
-Não há build ou servidor obrigatório. Abra `index.html` em um navegador ou use qualquer servidor estático local.
+Abra `index.html` em um navegador. O app também pode ser servido por qualquer servidor HTTP estático.
 
 ## GitHub Pages
 
-O projeto foi preparado para publicação estática pela branch `main` e pasta raiz. Em GitHub → Settings → Pages, selecione `Deploy from a branch`, branch `main` e folder `/ (root)`.
+O projeto usa uma aplicação estática com Hash Routing (`#/...`), adequada ao GitHub Pages. Em GitHub → Settings → Pages, selecione `Deploy from a branch`, branch `main` e pasta `/ (root)`.
 
-Como a aplicação usa Hash Routing (`#/...`), as páginas continuam acessíveis em GitHub Pages sem depender de configuração de servidor.
+As informações persistidas pelo protótipo ficam no navegador do usuário e não são enviadas para servidor.
