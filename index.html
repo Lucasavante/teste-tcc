@@ -37,6 +37,13 @@
     <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Janela do Bloom"></div>
   </div>
 
+  <script>
+    const BLOOM_UI_VERSION='2';
+    if(localStorage.getItem('bloom-ui-version')!==BLOOM_UI_VERSION){
+      localStorage.removeItem('bloom-data');
+      localStorage.setItem('bloom-ui-version',BLOOM_UI_VERSION);
+    }
+  </script>
   <script src="app.js"></script>
   <script src="enhance.js"></script>
 </body>
